@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.4.0)
   - ALCameraViewController (1.2.7)
+  - BluetoothKit (0.4.0)
   - Dropper (2.7.6)
   - Firebase (3.15.0):
     - Firebase/Core (= 3.15.0)
@@ -27,7 +28,14 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/NSData+zlib (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
-  - Kingfisher (3.6.0)
+  - Kingfisher (3.6.1)
+  - NexmoVerify (1.0.5):
+    - NexmoVerify/Core (= 1.0.5)
+  - NexmoVerify/Core (1.0.5):
+    - NexmoVerify/DeviceProperties (~> 1.0.5)
+    - NexmoVerify/RequestSigning (~> 1.0.5)
+  - NexmoVerify/DeviceProperties (1.0.5)
+  - NexmoVerify/RequestSigning (1.0.5)
   - NohanaImagePicker (0.7.1)
   - PopupDialog (0.5.4)
   - Protobuf (3.2.0)
@@ -38,25 +46,41 @@ PODS:
     - Realm (= 2.5.0)
   - SKPhotoBrowser (4.0.1)
   - SnapKit (3.2.0)
+  - SwiftValidator (4.0.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire
   - ALCameraViewController
+  - BluetoothKit (~> 0.4.0)
   - Dropper
   - Firebase
+  - Firebase/Core
   - Firebase/Messaging
   - Kingfisher
+  - NexmoVerify
   - NohanaImagePicker
   - PopupDialog
   - RealmSwift
   - SKPhotoBrowser
   - SnapKit
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
   - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: 2a6c23ad9efd76127f6109445515cb9780e5ad92
+    :git: https://github.com/jpotts18/SwiftValidator.git
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   ALCameraViewController: 4a513b8d5ecfdb3f34c50b1d469c373aae1ec7b4
+  BluetoothKit: 00e189e01ba765e2689c46fbd8d0ede62984441b
   Dropper: 52a020beb6fef2e4b1d55447f17099e5776954ef
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
   FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
@@ -64,7 +88,8 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
-  Kingfisher: 300035f9a40634dc9b452d946c9f22250688fecd
+  Kingfisher: 2f31cb75f3e98d3d4c406cbdcd9b263e956cfa67
+  NexmoVerify: 309602edd53f355cfe2ac14e2d34c5cf7742808a
   NohanaImagePicker: ae909c23150c30e29ab2c5d48766c39eef21d790
   PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
   Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
@@ -72,8 +97,9 @@ SPEC CHECKSUMS:
   RealmSwift: 9f1a8f624f2f153410115c2cb7d486be9976565d
   SKPhotoBrowser: 3a7c6fc02aa1620ab17253a47a49fafda46536e8
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 18ef14ced4a5f1c6f868dd377fdedf67d3e4baac
+PODFILE CHECKSUM: 50cec93259c44bc13a48f66fcdd1bf1b7b18965d
 
 COCOAPODS: 1.2.0

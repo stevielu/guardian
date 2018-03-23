@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3F35582A10D259DDF845D4543D63B8237BE20D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "78F8D5027C02BC8689D1CD6F73581686FE3F6DEE" : 9223372036854775807,
+    "B5219BAF2DA70724495960557F2F42BC2AF0C4A6" : 9223372036854775807,
+    "F957B893D3C5E641248DF05092C80954FE9803E8" : 9223372036854775807,
+    "EF50CF03AA1E23E524F182DF992B5CD2E0F67319" : 9223372036854775807,
+    "9A5FCF2FA7AAB105885E50062099FBFA5943DE5B" : 9223372036854775807,
+    "CE087E07D57661612519BF053C6BEF980C143055" : 9223372036854775807,
+    "B3F35582A10D259DDF845D4543D63B8237BE20D3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "00C2FBF4-0081-4786-BB82-1BD66080213B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "78F8D5027C02BC8689D1CD6F73581686FE3F6DEE" : "GGuardian-ios\/jzz\/Sample\/TSWeChat\/",
+    "B5219BAF2DA70724495960557F2F42BC2AF0C4A6" : "GGuardian-ios\/jzz\/Sample\/vmc2\/",
+    "F957B893D3C5E641248DF05092C80954FE9803E8" : "GGuardian-ios\/jzz\/Sample\/Yep\/",
+    "EF50CF03AA1E23E524F182DF992B5CD2E0F67319" : "GGuardian-ios\/jzz\/Sample\/BluetoothKit\/",
+    "9A5FCF2FA7AAB105885E50062099FBFA5943DE5B" : "GGuardian-ios\/jzz\/Sample\/Swift-LightBlue\/",
+    "CE087E07D57661612519BF053C6BEF980C143055" : "GGuardian-ios\/jzz\/Sample\/verify-ios-sdk\/",
+    "B3F35582A10D259DDF845D4543D63B8237BE20D3" : "GGuardian-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "jzz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "jzz.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hilen\/TSWeChat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78F8D5027C02BC8689D1CD6F73581686FE3F6DEE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Pluto-Y\/Swift-LightBlue.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A5FCF2FA7AAB105885E50062099FBFA5943DE5B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/totalappsnz\/GGuardian-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3F35582A10D259DDF845D4543D63B8237BE20D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/psharanda\/vmc2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5219BAF2DA70724495960557F2F42BC2AF0C4A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Nexmo\/verify-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE087E07D57661612519BF053C6BEF980C143055"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rhummelmose\/BluetoothKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF50CF03AA1E23E524F182DF992B5CD2E0F67319"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CatchChat\/Yep.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F957B893D3C5E641248DF05092C80954FE9803E8"
+    }
+  ]
+}
